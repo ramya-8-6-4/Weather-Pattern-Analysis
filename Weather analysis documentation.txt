@@ -1,0 +1,142 @@
+1. INTRODUCTION
+
+Weather forecasting and climate analysis are important in agriculture, transportation, disaster management, and environmental monitoring. Large amounts of weather data are generated every day from satellites and weather stations.
+
+This project focuses on analyzing historical weather data using Data Science and Machine Learning techniques. The project performs:
+
+Data Cleaning
+Data Visualization
+Trend Analysis
+Temperature Prediction
+
+Using machine learning algorithms, the system predicts temperature based on environmental conditions such as humidity, wind speed, and atmospheric pressure.
+
+2. OBJECTIVE
+
+The main objectives of this project are:
+To analyze historical weather data
+To clean and preprocess weather datasets
+To visualize weather trends and patterns
+To build a predictive model for temperature forecasting
+To evaluate prediction accuracy using machine learning
+
+3. PROBLEM STATEMENT
+
+Traditional weather analysis methods are time-consuming when handling huge datasets. Manual analysis cannot efficiently identify hidden trends and correlations between weather attributes.
+
+The problem is to develop a data-driven system capable of:
+Understanding weather patterns
+Detecting seasonal variations
+Predicting temperature values automatically
+
+4. DATASET DESCRIPTION
+Dataset Name
+
+Weather History Dataset
+
+Dataset Source
+
+Kaggle Weather Dataset
+
+Dataset Features
+Column Name	Description
+Formatted Date	Date and time
+Temperature (C)	Temperature in Celsius
+Humidity	Humidity level
+Wind Speed (km/h)	Wind speed
+Pressure (millibars)	Atmospheric pressure
+Summary	Weather condition summary
+Precip Type	Rain/Snow condition
+
+5. TECHNOLOGIES USED
+
+Technology	Purpose
+Python	        Programming language
+Pandas	        Data manipulation
+NumPy	        Numerical operations
+Matplotlib	Data visualization
+Seaborn	        Statistical visualization
+Scikit-learn	Machine learning
+Jupyter Notebook Development environment
+
+6. SYSTEM REQUIREMENTS
+Hardware Requirements
+Processor: Intel i3 or above
+RAM: 4 GB minimum
+Storage: 10 GB free space
+Software Requirements
+Python 3.x
+Jupyter Notebook
+VS Code / PyCharm
+Windows/Linux/MacOS
+
+7. METHODOLOGY
+
+The project follows these steps:
+
+Dataset Collection
+Data Cleaning
+Exploratory Data Analysis (EDA)
+Data Visualization
+Feature Selection
+Machine Learning Model Training
+Prediction
+Result Evaluation
+8. MODULES DESCRIPTION
+8.1 Data Collection
+
+The weather dataset is downloaded from Kaggle and imported into Python using Pandas.
+
+8.2 Data Cleaning
+
+This module handles:
+
+Missing values
+Date conversion
+Column renaming
+Invalid data removal
+
+8.3 Data Visualization
+
+Graphs and charts are generated to understand:
+
+Temperature trends
+Humidity distribution
+Monthly weather patterns
+
+9.Machine Learning Algorithm
+Linear Regression
+Used to predict temperature values from weather parameters.
+
+10. Visualizations Included
+
+Temperature Trend Graph
+
+Humidity Distribution
+
+Monthly Average Temperature
+
+Correlation Heatmap
+
+11.Advantages
+
+Easy weather trend analysis
+
+Accurate temperature prediction
+
+Useful for climate studies
+
+Helps in agricultural planning
+
+12. Future Scope
+Real-time weather forecasting
+
+Deep Learning integration
+
+Web dashboard development
+
+API-based live weather analysis
+
+13.Conclusion
+The project successfully analyzes weather patterns and predicts temperature using Machine Learning techniques. It demonstrates the importance of Data Science in climate and environmental analysis.
+Correlation between features
